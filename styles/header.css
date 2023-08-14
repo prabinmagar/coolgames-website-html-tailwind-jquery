@@ -1,0 +1,29 @@
+/* header */
+.header{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)), linear-gradient(248.75deg, rgba(0, 159, 157, 0.41) 0%, rgba(15, 10, 60, 0.41) 38.46%), url("../assets/images/banner_image.png") center/cover no-repeat;
+    @apply min-h-screen flex items-center justify-start;
+}
+
+.header .lead-text{
+    @apply max-w-[600px];
+}
+
+.banner-content{
+    @apply w-full container text-white flex flex-col items-center md:items-start;
+}
+
+.banner-badge{
+    @apply uppercase bg-green-normal py-2 px-4 font-semibold text-xl tracking-[.1em] inline-block mb-6;
+}
+
+.banner-title{
+    @apply font-right text-4xl md:text-5xl font-normal tracking-[.09em] leading-[1.2] max-w-[600px] mb-10 uppercase lg:text-[56px] text-center md:text-start;
+}
+
+.banner-content .lead-text{
+    @apply text-center md:text-start;
+}
+
+.banner-btn{
+    @apply min-w-[140px] h-[45px] py-3 px-4 text-base font-semibold uppercase border-2 border-solid border-green-normal mt-8 flex items-center hover:bg-green-normal hover:text-white transition ease-in-out duration-300;
+}

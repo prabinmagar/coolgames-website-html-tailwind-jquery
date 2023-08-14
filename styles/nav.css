@@ -1,0 +1,46 @@
+
+
+/* navbar */
+.navbar{
+    @apply fixed left-0 top-0 w-full min-h-[78px] bg-violet-dark-hover z-40;
+}
+
+.navbar-brand{
+    @apply text-white uppercase whitespace-nowrap font-bold text-[32px];
+}
+
+.nav-item{
+    @apply py-[10px] px-0 border-b-[1px] border-solid border-black/10 lg:ms-[6px];
+}
+
+.nav-link{
+    @apply uppercase font-semibold tracking-[2px] transition duration-300 ease-in-out text-violet-dark-active hover:text-pink-normal lg:py-[1px] lg:px-[10px] lg:text-white xl:px-4;
+}
+
+#navbar-hide-btn{
+    @apply absolute top-5 right-5 transition duration-300 ease-in-out hover:scale-125;
+}
+
+.navbar-content{
+    @apply lg:flex lg:items-center lg:justify-between;
+}
+
+.navbar-nav{
+    @apply lg:flex;
+}
+
+.connect-link{
+    @apply py-[6px] px-2 flex items-center justify-center transition ease-in-out duration-300 invert hover:opacity-90 lg:text-white;
+}
+
+.connect-link img{
+    @apply lg:invert;
+}
+
+.connect-list{
+    @apply flex justify-center items-center flex-wrap mt-6 lg:mt-0 lg:text-white lg:ms-10 lg:flex-nowrap xl:ms-[88px];
+}
+
+.connect-text{
+    @apply uppercase opacity-90 font-bold w-full tracking-[2px] mb-3 lg:w-auto lg:mb-0 lg:me-8;
+}

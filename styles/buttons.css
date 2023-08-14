@@ -1,0 +1,7 @@
+.btn-primary{
+    @apply mt-4 h-[34px] text-center border-solid border-[1px] border-green-normal py-0 px-4 bg-white min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-white bg-transparent transition ease-in-out duration-300 hover:bg-green-normal;
+}
+
+.btn-secondary{
+    @apply mt-4 h-[34px] text-center border-solid border-[1px] border-pink-normal py-0 px-4 bg-transparent min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-pink-normal transition ease-in-out duration-300 hover:bg-pink-normal hover:text-white;
+}

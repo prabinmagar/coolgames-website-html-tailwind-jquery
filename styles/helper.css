@@ -1,0 +1,42 @@
+.container{
+    @apply max-w-[1280px] mx-auto px-4;
+}
+
+
+.lead-text{
+    @apply text-xl font-normal;
+}
+
+.para-text{
+    @apply text-base font-normal text-white/90;
+}
+
+.section-btn{
+    @apply min-w-[200px] py-[10px] px-[18px] uppercase text-xl font-bold tracking-[.15em] bg-green-normal text-white relative z-10 border-[3px] border-solid border-green-normal hover:bg-transparent transition ease-in-out duration-300;
+}
+
+.img-fit-cover img{
+    @apply w-full h-full object-cover;
+}
+
+.resize-animation-stopper *{
+    animation: none!important;
+    transition: none!important;
+}
+
+/* section */
+.sc-title{
+    @apply py-3 px-0 text-center font-extrabold text-[32px] tracking-[.1em] text-white mb-10 font-poppins;
+}
+
+.sc-title h3{
+    @apply uppercase relative;
+}
+
+.sc-title h3 span{
+    @apply text-pink-normal;
+}
+
+.sc-title .line{
+    @apply mt-4 h-[6px] w-[160px] mx-auto bg-green-normal relative after:content-[''] after:absolute after:left-[-5px] after:border-r-[6px] after:border-r-green-normal after:border-b-[3.5px] after:border-b-transparent after:border-t-[3.5px] after:border-t-transparent after:border-solid before:content-[''] before:absolute before:right-[-5px] before:border-l-[6px] before:border-l-green-normal before:border-b-[3.5px] before:border-b-transparent before:border-t-[3.5px] before:border-t-transparent before:border-solid;
+}

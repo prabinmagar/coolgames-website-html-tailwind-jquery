@@ -1,0 +1,65 @@
+/* footer */
+.footer-top{
+    @apply bg-violet-darker py-[78px] border-t-[1px] border-solid border-t-white/10;
+}
+
+.footer-top .navbar-brand{
+    @apply text-white uppercase block whitespace-nowrap font-bold text-[32px] mb-4;
+}
+
+.footer-top .navbar-brand span{
+    @apply text-green-normal;
+}
+
+.footer-item{
+    @apply text-white;
+}
+
+.footer-item .para-text{
+    @apply max-w-[380px] mx-auto lg:ms-0;
+}
+
+.footer-item-links li{
+    @apply my-[6px] mx-0;
+}
+
+.footer-item-links li a {
+    @apply text-white opacity-70 hover:opacity-100 transition ease-in-out duration-300;
+}
+
+.footer-item-title{
+    @apply mb-3 uppercase text-[20px] tracking-[.03em] font-bold;
+}
+
+.newsletter-form{
+    @apply flex items-stretch h-12 w-full mx-auto transition ease-in-out duration-300;
+}
+
+.newsletter-form:has(.input-group-field:focus){
+    @apply shadow-input-focus;
+}
+
+.input-group{
+    @apply h-12 max-w-[284px] w-full mx-auto lg:ms-0 transition ease-in-out duration-300 flex items-stretch;
+}
+
+.input-group-field{
+    @apply bg-oxford-blue px-[22px] flex-1 text-white;
+}
+
+.input-group-btn{
+    @apply bg-white inline-flex items-center justify-center w-12 hover:scale-[1.1] text-oxford-blue transition ease-in-out duration-300;
+}
+
+.footer-bottom{
+    @apply bg-dark py-6 px-0;
+}
+
+.footer-bottom ul li{
+    @apply mx-[14px] lg:me-0 lg:ms-7;
+}
+
+.footer-bottom ul li a{
+    @apply text-white;
+}
+
